@@ -3,13 +3,12 @@
     x:Class="WyndhamBookingSystem.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:WyndhamBookingSystem"
+    xmlns:local="clr-namespace:WyndhamBookingSystem.Views"
     Shell.FlyoutBehavior="Disabled"
-    Title="WyndhamBookingSystem"
-    NavigationPage.HasNavigationBar="False">
+    Title="WyndhamBookingSystem">
 
     <ShellContent
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+        ContentTemplate="{DataTemplate local:MainMenuPage}"
+        Route="MainMenuPage"/>
 
 </Shell>
