@@ -33055,11 +33055,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\josep\\Documents\\Visual Studio\\WyndhamBookingSystem\\WyndhamBookingSystem\\WyndhamBookingSystem.csproj",
+      "projectUniqueName": "C:\\Users\\josep\\Documents\\Visual Studio\\Lenguaje C# Proyecto Final - Wyndham\\WyndhamBookingSystem\\WyndhamBookingSystem\\WyndhamBookingSystem.csproj",
       "projectName": "WyndhamBookingSystem",
-      "projectPath": "C:\\Users\\josep\\Documents\\Visual Studio\\WyndhamBookingSystem\\WyndhamBookingSystem\\WyndhamBookingSystem.csproj",
+      "projectPath": "C:\\Users\\josep\\Documents\\Visual Studio\\Lenguaje C# Proyecto Final - Wyndham\\WyndhamBookingSystem\\WyndhamBookingSystem\\WyndhamBookingSystem.csproj",
       "packagesPath": "C:\\Users\\josep\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\josep\\Documents\\Visual Studio\\WyndhamBookingSystem\\WyndhamBookingSystem\\obj\\",
+      "outputPath": "C:\\Users\\josep\\Documents\\Visual Studio\\Lenguaje C# Proyecto Final - Wyndham\\WyndhamBookingSystem\\WyndhamBookingSystem\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
