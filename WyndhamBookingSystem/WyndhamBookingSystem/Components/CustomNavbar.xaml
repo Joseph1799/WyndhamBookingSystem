@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WyndhamBookingSystem.Components.CustomNavbar"
+             BackgroundColor="#032F30"
+             Padding="0, 8, 0, 10">
+    <Grid RowDefinitions="Auto"
+          ColumnDefinitions="*,*,*,*"
+          VerticalOptions="End"
+          HorizontalOptions="FillAndExpand">
+
+        <!-- Botón 1 -->
+        <Button Grid.Column="0"
+                FontSize="24"
+                TextColor="White"
+                BackgroundColor="Transparent"
+                Clicked="OnGoToMenuClicked">
+            <Button.ImageSource>
+                <FontImageSource FontFamily="FluentSystemIcons" Glyph="&#xE70E;" Color="White" Size="24" />
+            </Button.ImageSource>
+        </Button>
+
+        <!-- Botón 2 -->
+        <Button Grid.Column="1"
+                FontSize="24"
+                TextColor="White"
+                BackgroundColor="Transparent"
+                Clicked="OnGoToSearchClicked">
+            <Button.ImageSource>
+                <FontImageSource FontFamily="FluentSystemIcons" Glyph="&#xEA7B;" Color="White" Size="24" />
+            </Button.ImageSource>
+        </Button>
+
+        <!-- Botón 3 -->
+        <Button Grid.Column="2"
+                FontSize="24"
+                TextColor="White"
+                BackgroundColor="Transparent">
+            <Button.ImageSource>
+                <FontImageSource FontFamily="FluentSystemIcons" Glyph="&#xE6FA;" Color="White" Size="24" />
+            </Button.ImageSource>
+        </Button>
+
+        <!-- Botón 4 -->
+        <Button Grid.Column="3"
+                FontSize="24"
+                TextColor="White"
+                BackgroundColor="Transparent">
+            <Button.ImageSource>
+                <FontImageSource FontFamily="FluentSystemIcons" Glyph="&#xF5BB;" Color="White" Size="24" />
+            </Button.ImageSource>
+        </Button>
+
+    </Grid>
+</ContentView>

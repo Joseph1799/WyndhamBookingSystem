@@ -8,9 +8,9 @@
             InitializeComponent();
         }
 
-        private async void OnGoToLoginClicked(object sender, EventArgs e)
+        private async void OnGoToSearchClicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new LoginPage());
+            await Navigation.PushAsync(new ReservarPage());
         }
 
     }

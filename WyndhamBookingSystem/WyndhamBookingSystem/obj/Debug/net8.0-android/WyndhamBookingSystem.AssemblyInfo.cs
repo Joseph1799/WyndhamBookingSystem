@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WyndhamBookingSystem")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+bfb78f60dd5c2945bed7dce850d06164ed7b648a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+453e1abd39c67d98c6660216ace24dd86d57a6f9")]
 [assembly: System.Reflection.AssemblyProductAttribute("WyndhamBookingSystem")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WyndhamBookingSystem")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -12,65 +12,77 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WyndhamBookingSystem
-build_property.ProjectDir = C:\Users\josep\Documents\Visual Studio\Lenguaje C# Proyecto Final - Wyndham\WyndhamBookingSystem\WyndhamBookingSystem\
+build_property.ProjectDir = C:\Users\josep\Visual Studio\WyndhamBookingSystem\WyndhamBookingSystem\WyndhamBookingSystem\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[C:/Users/josep/Documents/Visual Studio/Lenguaje C\# Proyecto Final - Wyndham/WyndhamBookingSystem/WyndhamBookingSystem/App.xaml]
+[C:/Users/josep/Visual Studio/WyndhamBookingSystem/WyndhamBookingSystem/WyndhamBookingSystem/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = WyndhamBookingSystem.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/josep/Documents/Visual Studio/Lenguaje C\# Proyecto Final - Wyndham/WyndhamBookingSystem/WyndhamBookingSystem/AppShell.xaml]
+[C:/Users/josep/Visual Studio/WyndhamBookingSystem/WyndhamBookingSystem/WyndhamBookingSystem/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = WyndhamBookingSystem.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/josep/Documents/Visual Studio/Lenguaje C\# Proyecto Final - Wyndham/WyndhamBookingSystem/WyndhamBookingSystem/Resources/Styles/Colors.xaml]
+[C:/Users/josep/Visual Studio/WyndhamBookingSystem/WyndhamBookingSystem/WyndhamBookingSystem/Components/CustomHeader.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = WyndhamBookingSystem.Components.CustomHeader.xaml
+build_metadata.AdditionalFiles.TargetPath = Components\CustomHeader.xaml
+build_metadata.AdditionalFiles.RelativePath = Components\CustomHeader.xaml
+
+[C:/Users/josep/Visual Studio/WyndhamBookingSystem/WyndhamBookingSystem/WyndhamBookingSystem/Components/CustomNavbar.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = WyndhamBookingSystem.Components.CustomNavbar.xaml
+build_metadata.AdditionalFiles.TargetPath = Components\CustomNavbar.xaml
+build_metadata.AdditionalFiles.RelativePath = Components\CustomNavbar.xaml
+
+[C:/Users/josep/Visual Studio/WyndhamBookingSystem/WyndhamBookingSystem/WyndhamBookingSystem/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = WyndhamBookingSystem.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/josep/Documents/Visual Studio/Lenguaje C\# Proyecto Final - Wyndham/WyndhamBookingSystem/WyndhamBookingSystem/Resources/Styles/Styles.xaml]
+[C:/Users/josep/Visual Studio/WyndhamBookingSystem/WyndhamBookingSystem/WyndhamBookingSystem/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = WyndhamBookingSystem.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/Users/josep/Documents/Visual Studio/Lenguaje C\# Proyecto Final - Wyndham/WyndhamBookingSystem/WyndhamBookingSystem/Views/DetalleHabitacionPage.xaml]
+[C:/Users/josep/Visual Studio/WyndhamBookingSystem/WyndhamBookingSystem/WyndhamBookingSystem/Views/DetalleHabitacionPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = WyndhamBookingSystem.Views.DetalleHabitacionPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\DetalleHabitacionPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\DetalleHabitacionPage.xaml
 
-[C:/Users/josep/Documents/Visual Studio/Lenguaje C\# Proyecto Final - Wyndham/WyndhamBookingSystem/WyndhamBookingSystem/Views/LoginPage.xaml]
+[C:/Users/josep/Visual Studio/WyndhamBookingSystem/WyndhamBookingSystem/WyndhamBookingSystem/Views/LoginPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = WyndhamBookingSystem.Views.LoginPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\LoginPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\LoginPage.xaml
 
-[C:/Users/josep/Documents/Visual Studio/Lenguaje C\# Proyecto Final - Wyndham/WyndhamBookingSystem/WyndhamBookingSystem/Views/MainMenuPage.xaml]
+[C:/Users/josep/Visual Studio/WyndhamBookingSystem/WyndhamBookingSystem/WyndhamBookingSystem/Views/MainMenuPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = WyndhamBookingSystem.Views.MainMenuPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\MainMenuPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\MainMenuPage.xaml
 
-[C:/Users/josep/Documents/Visual Studio/Lenguaje C\# Proyecto Final - Wyndham/WyndhamBookingSystem/WyndhamBookingSystem/Views/RegistroPage.xaml]
+[C:/Users/josep/Visual Studio/WyndhamBookingSystem/WyndhamBookingSystem/WyndhamBookingSystem/Views/RegistroPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = WyndhamBookingSystem.Views.RegistroPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\RegistroPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\RegistroPage.xaml
 
-[C:/Users/josep/Documents/Visual Studio/Lenguaje C\# Proyecto Final - Wyndham/WyndhamBookingSystem/WyndhamBookingSystem/Views/ReservarPage.xaml]
+[C:/Users/josep/Visual Studio/WyndhamBookingSystem/WyndhamBookingSystem/WyndhamBookingSystem/Views/ReservarPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = WyndhamBookingSystem.Views.ReservarPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\ReservarPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\ReservarPage.xaml
 
-[C:/Users/josep/Documents/Visual Studio/Lenguaje C\# Proyecto Final - Wyndham/WyndhamBookingSystem/WyndhamBookingSystem/Views/SeleccionHabitacionPage.xaml]
+[C:/Users/josep/Visual Studio/WyndhamBookingSystem/WyndhamBookingSystem/WyndhamBookingSystem/Views/SeleccionHabitacionPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = WyndhamBookingSystem.Views.SeleccionHabitacionPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\SeleccionHabitacionPage.xaml
