@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WyndhamBookingSystem.Components.CustomHeader">
+    <VerticalStackLayout>
+        <Grid BackgroundColor="#032F30" Padding="0, 25, 0, 10">
+            <!-- Texto centrado -->
+            <Image Source="logo_white.png"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   WidthRequest="170"/>
+
+            <!-- Iconos a la derecha -->
+            <StackLayout Orientation="Horizontal"
+                         HorizontalOptions="End"
+                         VerticalOptions="Center"
+                         Padding="3, 10, 10, 0">
+                <!-- Puedes reemplazar estos Labels con Images si tienes íconos -->
+                <Image Source="notifications_icon.png" WidthRequest="24" HeightRequest="24" />
+            </StackLayout>
+        </Grid>
+    </VerticalStackLayout>
+</ContentView>

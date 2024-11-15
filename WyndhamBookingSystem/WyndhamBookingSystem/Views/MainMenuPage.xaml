@@ -1,38 +1,170 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:controls="clr-namespace:WyndhamBookingSystem.Components"
              x:Class="WyndhamBookingSystem.Views.MainMenuPage"
              Shell.NavBarIsVisible="false">
 
-    <ScrollView>
-        <VerticalStackLayout
-            Spacing="25">
-            <Image
-                Source="menu_header.png"
-                HorizontalOptions="FillAndExpand"
-                Aspect="AspectFit"
-                SemanticProperties.Description="Wyndham main page header" />
-            <StackLayout Padding="30,0">
-                <Label
-                Text="Wyndham"
-                Style="{StaticResource Headline}"
-                SemanticProperties.HeadingLevel="Level1" />
-                
-                <Label
-                    Text="Welcome"
-                    Style="{StaticResource SubHeadline}"
-                    SemanticProperties.HeadingLevel="Level2"
-                    SemanticProperties.Description="Welcome to dot net Multi platform App U I" />
 
-                <Button
-                    x:Name="CounterBtn"
-                    Text="Go to Login Page" 
-                    SemanticProperties.Hint="Navigates to Login Page"
-                    Clicked="OnGoToLoginClicked"
-                    HorizontalOptions="Fill" 
-                    BackgroundColor="#212D5F"/>
-            </StackLayout>
-        </VerticalStackLayout>
-    </ScrollView>
+    <Grid RowDefinitions="Auto,*,Auto">
+        <!-- Header en la primera fila -->
+        <controls:CustomHeader Grid.Row="0" />
+        <ScrollView Grid.Row="1">
+            <VerticalStackLayout Spacing="0">
+
+                
+
+                <!-- Image with Gradient Overlay -->
+                <Grid>
+
+                    <Image
+                    Source="menu_header2.png"
+                    HorizontalOptions="FillAndExpand"
+                    HeightRequest="350"
+                    Aspect="AspectFill"
+                    SemanticProperties.Description="Wyndham main page header" />
+
+                    <!-- Desvanecimiento en la parte superior (Fade top) -->
+                    <BoxView
+                    HorizontalOptions="FillAndExpand"
+                    VerticalOptions="Start"
+                    HeightRequest="50">
+                        <BoxView.Background>
+                            <LinearGradientBrush StartPoint="0,1" EndPoint="0,0">
+                                <GradientStop Color="Transparent" Offset="0.0" />
+                                <GradientStop Color="#282828" Offset="1.0" />
+                            </LinearGradientBrush>
+                        </BoxView.Background>
+                    </BoxView>
+
+                    <!-- Gradient Overlay -->
+                    <BoxView
+                    HorizontalOptions="FillAndExpand"
+                    VerticalOptions="End"
+                    HeightRequest="0">
+                        <BoxView.Background>
+                            <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                                <GradientStop Color="Transparent" Offset="0.0" />
+                                <GradientStop Color="#ffffff" Offset="1.0" />
+                            </LinearGradientBrush>
+                        </BoxView.Background>
+                    </BoxView>
+
+                    <!-- Label al inicio -->
+                    <StackLayout
+                    HorizontalOptions="Start"
+                    VerticalOptions="Start"
+                    Padding="10,10,0,0"
+                    Spacing="5">
+                        <Label
+                        Text="Wyndham Tamarindo, Costa Rica"
+                        FontFamily="HelveticaNeueRoman"
+                        Padding="30, 2, 13, 2"
+                        Margin="-10,20,0,0"
+                        FontSize="12"
+                        TextColor="White"
+                        BackgroundColor="#062b29"
+                        HorizontalOptions="Start" />
+                    </StackLayout>
+
+                    <!-- Boton al final de la imagen -->
+                    <StackLayout
+                    HorizontalOptions="Start"
+                    VerticalOptions="End"
+                    Margin="20,0,0,20"
+                    Spacing="5">
+                        <Button
+                        x:Name="CounterBtn"
+                        Text="Reservar Ahora" 
+                        CornerRadius="50"
+                        Padding="15, 0, 10, 0"    
+                        FontSize="16"
+                        FontAttributes="Bold"
+                        TextColor="#3a3a3a"
+                        SemanticProperties.Hint="Navigates to Login Page"
+                        Clicked="OnGoToSearchClicked"
+                        HorizontalOptions="Fill" 
+                        BackgroundColor="White"
+                        ContentLayout="Right, 10">
+                            <Button.Shadow>
+                                <Shadow Brush="Black" Opacity="0.5" Radius="20" Offset="0,5"/>
+                            </Button.Shadow>
+                            <Button.ImageSource>
+                                <FontImageSource FontFamily="FluentSystemIcons" Glyph="&#xE0EB;" Color="#3a3a3a"/>
+                            </Button.ImageSource>
+                        </Button>
+                    </StackLayout>
+
+                </Grid>
+
+                <StackLayout Padding="0,20"
+                             Spacing="5">
+                    
+                    <Label
+                    Text="Captura el Momento"
+                    FontFamily="HelveticaNeueRoman"
+                    FontAttributes="Bold"
+                    Style="{StaticResource SubHeadline}"
+                    SemanticProperties.HeadingLevel="Level2" />
+
+                    <Label
+                    Text="Disfrutando de una cálida bienvenida. Saboreando una bebida perfecta. Descansando en una cama cómoda. Una estadía serena en Wyndham Hotels and Resorts se compone de momentos que crean recuerdos que duran toda una vida."
+                    FontSize="16"
+                    HorizontalTextAlignment="Center" />
+
+                    <Label
+                    Margin="0, 10, 0, 0"
+                    Text="Hoteles Destacados"
+                    FontFamily="HelveticaNeueRoman"
+                    FontAttributes="Bold"
+                    Style="{StaticResource SubHeadline}"
+                    SemanticProperties.HeadingLevel="Level2" />
+
+                    <ScrollView Orientation="Horizontal" 
+                    HorizontalScrollBarVisibility="Never">
+                        <HorizontalStackLayout Spacing="10" Padding="10">
+                            <!-- Card 1 -->
+                            <Frame CornerRadius="10" WidthRequest="150" HeightRequest="200" Padding="0" Margin="0">
+                                <VerticalStackLayout>
+                                    <Image Source="wyndham_clearwater.png" Aspect="AspectFill" HeightRequest="120" />
+                                    <Label Text="Wyndham Grand Clearwater Beach" HorizontalTextAlignment="Center" VerticalOptions="Center" FontSize="14" FontAttributes="Bold" Margin="0, 7, 0, 0" Padding="3, 0, 3, 0"/>
+                                </VerticalStackLayout>
+                            </Frame>
+
+                            <!-- Card 2 -->
+                            <Frame CornerRadius="10" WidthRequest="150" HeightRequest="200" Padding="0" Margin="0">
+                                <VerticalStackLayout>
+                                    <Image Source="wyndham_portugal.png" Aspect="AspectFill" HeightRequest="120" />
+                                    <Label Text="Dolce by Wyndham CampoReal Lisboa" HorizontalTextAlignment="Center" VerticalOptions="Center" FontSize="14" FontAttributes="Bold" Margin="0, 7, 0, 0" Padding="3, 0, 3, 0"/>
+                                </VerticalStackLayout>
+                            </Frame>
+
+                            <!-- Card 3 -->
+                            <Frame CornerRadius="10" WidthRequest="150" HeightRequest="200" Padding="0" Margin="0">
+                                <VerticalStackLayout>
+                                    <Image Source="wyndham_vegas.png" Aspect="AspectFill" HeightRequest="120" />
+                                    <Label Text="Nobu Hotel Las Vegas at Caesars Palace" HorizontalTextAlignment="Center" VerticalOptions="Center" FontSize="14" FontAttributes="Bold" Margin="0, 7, 0, 0" Padding="3, 0, 3, 0"/>
+                                </VerticalStackLayout>
+                            </Frame>
+
+                            <!-- Card 4 -->
+                            <Frame CornerRadius="10" WidthRequest="150" HeightRequest="200" Padding="0" Margin="0">
+                                <VerticalStackLayout>
+                                    <Image Source="wyndham_orlando.png" Aspect="AspectFill" HeightRequest="120" />
+                                    <Label Text="Wyndham Grand Orlando Resort Bonnet Creek" HorizontalTextAlignment="Center" VerticalOptions="Center" FontSize="14" FontAttributes="Bold" Margin="0, 7, 0, 0" Padding="3, 0, 3, 0"/>
+                                </VerticalStackLayout>
+                            </Frame>
+                        </HorizontalStackLayout>
+                    </ScrollView>
+
+                </StackLayout>
+
+            </VerticalStackLayout>
+        </ScrollView>
+
+        <!-- Navbar fijo al pie de la pantalla -->
+        <controls:CustomNavbar Grid.Row="2" />
+
+    </Grid>
 
 </ContentPage>

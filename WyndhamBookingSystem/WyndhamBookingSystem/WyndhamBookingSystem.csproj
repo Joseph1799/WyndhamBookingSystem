@@ -56,7 +56,28 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Fonts\FluentSystemIcons-Regular.ttf" />
+	  <None Remove="Resources\Fonts\Helvetica-Neue-Roman.otf" />
+	  <None Remove="Resources\Images\favorite_icon.png" />
+	  <None Remove="Resources\Images\filter_icon.png" />
+	  <None Remove="Resources\Images\group_icon.png" />
+	  <None Remove="Resources\Images\home_icon.png" />
+	  <None Remove="Resources\Images\location_icon.png" />
+	  <None Remove="Resources\Images\logo_blue.png" />
+	  <None Remove="Resources\Images\logo_white.png" />
 	  <None Remove="Resources\Images\menu_header.png" />
+	  <None Remove="Resources\Images\menu_header2.png" />
+	  <None Remove="Resources\Images\notifications_icon.png" />
+	  <None Remove="Resources\Images\person_icon.png" />
+	  <None Remove="Resources\Images\premium_room.png" />
+	  <None Remove="Resources\Images\queen_room.png" />
+	  <None Remove="Resources\Images\search_icon.png" />
+	  <None Remove="Resources\Images\sort_icon.png" />
+	  <None Remove="Resources\Images\twin_room.png" />
+	  <None Remove="Resources\Images\wyndham_clearwater.png" />
+	  <None Remove="Resources\Images\wyndham_orlando.png" />
+	  <None Remove="Resources\Images\wyndham_portugal.png" />
+	  <None Remove="Resources\Images\wyndham_vegas.png" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -75,6 +96,12 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="Components\CustomHeader.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Components\CustomNavbar.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Views\DetalleHabitacionPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
